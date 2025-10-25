@@ -102,19 +102,6 @@ This executes integration tests written in TypeScript to validate all program in
 
 ---
 
-### 5. (Optional) Run Frontend
-
-If using a frontend (e.g., React/Next.js), start the development server:
-
-```bash
-cd app
-npm install
-npm run dev
-```
-
-The frontend should connect to the deployed program and allow fund creation, donations, and withdrawal visualization.
-
----
 
 ## Program Design Summary
 
