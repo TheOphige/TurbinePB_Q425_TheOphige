@@ -136,7 +136,7 @@ anchor run withdraw --fund <FUND_PDA> --amount 0.5
 
 ## Documentation Links
 
-* [USER_STORY.md](./USERSTORY.md)
+* [USERSTORY.md](./USERSTORY.md)
 * [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ---
