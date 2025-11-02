@@ -9,7 +9,7 @@ use instructions::*;
 declare_id!("734juxRyhGmtjUXAXeLYLUG8ctGWULvyhnyhHb2WZhDG");
 
 #[program]
-pub mod chain_vault_program {
+pub mod vault {
     use super::*;
 
     pub fn init_vault(ctx: Context<InitializeVault>, locked: bool) -> Result<()> {

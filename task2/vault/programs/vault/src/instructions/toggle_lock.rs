@@ -13,7 +13,6 @@ pub struct ToggleLock<'info> {
 }
 
 pub fn _toggle_lock(ctx: Context<ToggleLock>) -> Result<()> {
-    // TODO: Implement toggle lock functionality
     let vault = &mut ctx.accounts.vault;
     // Toggle the locked state of the vault (locked becomes unlocked, unlocked becomes locked)
     vault.locked = !vault.locked;
